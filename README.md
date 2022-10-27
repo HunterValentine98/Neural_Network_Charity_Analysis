@@ -30,6 +30,8 @@ We focuseed on the "Is-Successful" variable for this model.
 Application, Name, Type, Affiliation, Classification, Use_Case, Organization, Income_Amt, Special_Considerations, Status, and Ask_Amt
 
 - What variable(s) are neither targets nor features, and should be removed from the input data?
+
+Employer Identification Number(EIN) 
 ### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 - Were you able to achieve the target model performance?
