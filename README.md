@@ -22,6 +22,9 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 ## Results
 ### Data Preprocessing
 - What variable(s) are considered the target(s) for your model?
+
+We focuseed on the "Is-Successful" variable for this model.
+
 - What variable(s) are considered to be the features for your model?
 - What variable(s) are neither targets nor features, and should be removed from the input data?
 ### Compiling, Training, and Evaluating the Model
