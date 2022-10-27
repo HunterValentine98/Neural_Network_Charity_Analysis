@@ -20,35 +20,14 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 - IS_SUCCESSFUL—Was the money used effectively
 
 ## Results
-### Naive Random Oversampling
-- Precision Score: 0.01
-- Recall Score: 0.71
-- F1 Score: 0.02
-
-### SMOTE Oversampling
-- Precision Score: 0.01 
-- Recall Score: 0.61 
-- F1 Score: 0.02
-
-### Undersampling
-- Precision Score: 0.01
-- Recall Score: 0.69
-- F1 Score: 0.01
-
-### Combination Sampling
-- Precision Score: 0.01
-- Recall Score: 0.70 
-- F1 Score: 0.02
-
-### Balanced Random Forest Classifier
-- Precision Score: 0.03
-- Recall Score: 0.70
-- F1 Score: 0.06
-
-### Easy Ensemble AdaBoost Classifier
-- Precision Score: 0.09
-- Recall Score: 0.92
-- F1 Score: 0.16
+### Data Preprocessing
+- What variable(s) are considered the target(s) for your model?
+- What variable(s) are considered to be the features for your model?
+- What variable(s) are neither targets nor features, and should be removed from the input data?
+### Compiling, Training, and Evaluating the Model
+- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+- Were you able to achieve the target model performance?
+- What steps did you take to try and increase model performance?
 
 ## Summary
 When looking for a model to that predicts bad loans, neither of our oversampling models produced predictions that would be usable for actual use. Our Undersampling model produced similar results, so I would not recommend this model either. Our combination sampling produced a model that with almost identical scores to our Naive Random Sampling model. None of these models should be used for predictions.
