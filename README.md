@@ -46,4 +46,4 @@ Yes
 The biggest impact was changing our Name column to data points. 
 
 ## Summary
-
+If I were to recommend a new model, a Random Forest model would probably be good for further analysis. This problem falls under a classification style problem, which Random Forest is good with.
