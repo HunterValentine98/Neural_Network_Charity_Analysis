@@ -35,15 +35,15 @@ Employer Identification Number(EIN)
 ### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-
+Three hidden layers each with neurons, causing our accuracy to go above 75. We kept the number of epochs constant. The first activation function was "relu" and the secon and third were "sigmoid", further increasing our accuracy.
 
 - Were you able to achieve the target model performance?
 
-
+Yes
 
 - What steps did you take to try and increase model performance?
 
-
+The biggest impact was changing our Name column to data points. 
 
 ## Summary
 
